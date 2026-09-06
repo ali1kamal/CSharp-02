@@ -72,18 +72,25 @@
 
             //8th answer
             #region 8th answer
-            string yearText = "2023";
-            int year = int.Parse(yearText);
+            //string yearText = "2023";
+            //int year = int.Parse(yearText);
 
-            string badText = "abc";
-            if(int.TryParse(badText, out int badInt))
-            {
-                Console.WriteLine(badInt);
-            }
-            else
-            {
-                Console.WriteLine( "invalid number");
-            }
+            //string badText = "abc";
+            //if(int.TryParse(badText, out int badInt))
+            //{
+            //    Console.WriteLine(badInt);
+            //}
+            //else
+            //{
+            //    Console.WriteLine( "invalid number");
+            //}
+            #endregion
+
+            //9th answer
+            #region 8th answer
+            int pages = 464;
+            string pagesText = pages.ToString();
+            Console.WriteLine(pagesText.GetType());
             #endregion
         }
     }
