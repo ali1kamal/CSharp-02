@@ -87,10 +87,22 @@
             #endregion
 
             //9th answer
-            #region 8th answer
-            int pages = 464;
-            string pagesText = pages.ToString();
-            Console.WriteLine(pagesText.GetType());
+            #region 9th answer
+            //int pages = 464;
+            //string pagesText = pages.ToString();
+            //Console.WriteLine(pagesText.GetType());
+            #endregion
+
+            //10th answer
+            #region 10th answer
+            int copies = 100;
+            object boxedCopies = copies;
+
+            int unBoxedCopies = (int)boxedCopies;
+
+
+            Console.WriteLine(boxedCopies);
+            Console.WriteLine(unBoxedCopies);
             #endregion
         }
     }
