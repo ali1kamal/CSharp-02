@@ -33,21 +33,27 @@
 
             //4th answer
             #region fourth answer
-            int x = 10;
-            int y = 0;
-            try
-            {
-                int result = x / y;
-                Console.WriteLine(result);
-            }
-            catch(DivideByZeroException e)
-            {
-                Console.WriteLine("you r dividing by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //int x = 10;
+            //int y = 0;
+            //try
+            //{
+            //    int result = x / y;
+            //    Console.WriteLine(result);
+            //}
+            //catch(DivideByZeroException e)
+            //{
+            //    Console.WriteLine("you r dividing by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+            #endregion
+
+            //5th answer
+            #region fifth answer
+            int pages = 300;
+            double page = pages;
             #endregion
         }
     }
