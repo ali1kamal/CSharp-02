@@ -55,10 +55,19 @@
             //int pages = 300;
             //double page = pages;
             #endregion
+
+
             //6th answer
             #region sixth answer
-            double price = 49.99;
-            int p = (int)price;
+            //double price = 49.99;
+            //int p = (int)price;
+            #endregion
+
+
+            //7th answer
+            #region 7th answer
+            string pagesText = "464";
+            int pages = Convert.ToInt32(pagesText);
             #endregion
         }
     }
