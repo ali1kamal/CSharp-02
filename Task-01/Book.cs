@@ -8,5 +8,9 @@ namespace Task_01
     {
         public string Title;
         public int Pages;
+        public override string ToString()
+        {
+            return $"book Title: {Title}\nbook pages: {Pages}";
+        }
     }
 }
