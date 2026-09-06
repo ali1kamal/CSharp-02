@@ -30,6 +30,25 @@
             //the correcting of it will be
             //int page = 464;
             #endregion
+
+            //4th answer
+            #region fourth answer
+            int x = 10;
+            int y = 0;
+            try
+            {
+                int result = x / y;
+                Console.WriteLine(result);
+            }
+            catch(DivideByZeroException e)
+            {
+                Console.WriteLine("you r dividing by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+            #endregion
         }
     }
 }
