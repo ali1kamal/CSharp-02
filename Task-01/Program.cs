@@ -1,10 +1,13 @@
 ﻿namespace Task_01
 {
-    internal class Program
+     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //1st answer
+            Book book = new Book();
+            object book2 = book;
+            Console.WriteLine(book2);     
         }
     }
 }
