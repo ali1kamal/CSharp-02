@@ -52,8 +52,13 @@
 
             //5th answer
             #region fifth answer
-            int pages = 300;
-            double page = pages;
+            //int pages = 300;
+            //double page = pages;
+            #endregion
+            //6th answer
+            #region sixth answer
+            double price = 49.99;
+            int p = (int)price;
             #endregion
         }
     }
