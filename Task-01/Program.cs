@@ -14,15 +14,22 @@
 
             //2nd answer
             #region second answer
-            Book book = new Book();
-            book.Title = "Ali Book";
-            book.Pages = 204;
-            Console.WriteLine(book.ToString());
-            Console.WriteLine(book.Equals(book));
-            Console.WriteLine(book.GetType());
-            Console.WriteLine(book.GetHashCode());
+            //Book book = new Book();
+            //book.Title = "Ali Book";
+            //book.Pages = 204;
+            //Console.WriteLine(book.ToString());
+            //Console.WriteLine(book.Equals(book));
+            //Console.WriteLine(book.GetType());
+            //Console.WriteLine(book.GetHashCode());
             #endregion
 
+            //3d answer
+            #region third answer
+            //int page = "464";
+            //is a compile-time error(suntax error) because int doesn't use ""
+            //the correcting of it will be
+            //int page = 464;
+            #endregion
         }
     }
 }
